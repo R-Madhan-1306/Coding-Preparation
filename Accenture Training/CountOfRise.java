@@ -22,5 +22,6 @@ public class CountOfRise {
             }
         }
         System.out.println(val);
+        sc.close();
     }
 }

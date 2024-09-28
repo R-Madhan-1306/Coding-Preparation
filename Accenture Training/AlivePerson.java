@@ -16,5 +16,6 @@ class AlivePerson
         a = a/2;
         int res = (n-a)*2;
         System.out.println(res+1);
+        sc.close();
     }
 }
