@@ -1,5 +1,5 @@
 import java.util.*;
-class SeqNumAdd
+class SeqNumAddition
 {
     public static void main(String args[])
     {
