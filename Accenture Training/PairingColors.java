@@ -20,5 +20,6 @@ public class PairingColors {
         }
 
         System.out.println(pairCount);
+        obj.close();
     }
 }

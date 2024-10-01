@@ -8,7 +8,7 @@ public class NumToAlpbet {
             char ch = str.charAt(i);
             int v = ch -'0';
             System.out.print((char)('a'+v-1));
-
+            obj.close();
         }
     }
 }

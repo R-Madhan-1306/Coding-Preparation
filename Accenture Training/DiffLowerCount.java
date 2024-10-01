@@ -15,5 +15,6 @@ public class DiffLowerCount {
                 count++; 
         }
         System.out.println(count==0 ? -1: count);
+        obj.close();
     }
 }

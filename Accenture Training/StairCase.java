@@ -6,6 +6,7 @@ public class StairCase {
         int n = obj.nextInt();
 
         System.out.println(fibonaci(n));
+        obj.close();
     }
 
     public static int fibonaci(int n) {
@@ -16,7 +17,6 @@ public class StairCase {
 
             sum = a + b;
             System.out.println(a + " " + b + " = " + sum);
-            int temp = a;
             a = b;
             b = sum;
 
