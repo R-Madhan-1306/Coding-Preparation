@@ -17,6 +17,7 @@ public class StrContainNum {
                 System.out.println();
                 check=0;
             }
+            obj.close();
         }
     }
 }
