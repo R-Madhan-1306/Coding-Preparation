@@ -5,5 +5,6 @@ public class TreeArea {
         int r  = obj.nextInt();
         double val = Math.PI *  (Math.pow(r, 2));
         System.out.println(Math.round(val));
+        obj.close();
     }
 }

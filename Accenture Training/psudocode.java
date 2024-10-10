@@ -1,4 +1,3 @@
-import java.util.*;
 public class psudocode {
     public static void main(String[] args) {
         int  a = 1 , b =1;
@@ -15,5 +14,6 @@ public class psudocode {
             a=b;
         }
         System.out.println(a+b);
+
     }
 }
