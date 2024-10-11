@@ -10,6 +10,7 @@ public class SubProductArr {
         }
         a = subProduct(a,n);
         for(int v : a) System.out.print(v+" ");
+        obj.close();
     }
 
     private static int[] subProduct(int[] a, int n) {
