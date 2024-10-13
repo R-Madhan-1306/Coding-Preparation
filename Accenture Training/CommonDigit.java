@@ -6,6 +6,7 @@ public class CommonDigit {
         int m = obj.nextInt();
         int o = obj.nextInt();
         System.out.println(commonDigit(n,m,o));
+        obj.close();
     }
 
     private static String commonDigit(int n, int m, int o) {

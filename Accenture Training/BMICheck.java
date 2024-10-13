@@ -5,6 +5,7 @@ public class BMICheck {
         int  h = obj.nextInt();
         double w = obj.nextDouble();
         System.out.println(BmiValue(h,w));
+        obj.close();
     }
 
     private static int BmiValue(int h, double w) {

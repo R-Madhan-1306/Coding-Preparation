@@ -7,9 +7,9 @@ public class SPSGame {
         int u1 = 0, u2 = 0;
         for (int i = 0; i < n; i++) {
             String s1 = obj.next();
-            String s2 = obj.next();
+            String s2 = obj.next(); 
             s1.toLowerCase();
-            s2.toLowerCase();
+            s2.toLowerCase();    
             if (s1.equals(s2)) {
                 System.out.println("Draw");
             } else if ((s1.equals("rock") && s2.equals("scissor")) || (s1.equals("paper") && s2.equals("rock"))

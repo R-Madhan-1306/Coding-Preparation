@@ -14,6 +14,6 @@ public class BallBounce {
     }
 
     private static int ElecityIs(int v, int vn) {
-        return v/vn;
+        return v/vn;  
     }
 }
